@@ -12,7 +12,7 @@ public class StartActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_start);
         try {
 
             final Handler handler = new Handler();
@@ -24,7 +24,7 @@ public class StartActivity extends AppCompatActivity {
                     startActivity(intent);
 
                 }
-            }, 2500);
+            }, 3000);
 
         } catch (Exception e) {}
     }
